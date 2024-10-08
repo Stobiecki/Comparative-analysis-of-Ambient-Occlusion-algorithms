@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\my headers">
+      <UniqueIdentifier>{dd6717f0-e4a4-4098-a511-c2daa2438138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\stb">
+      <UniqueIdentifier>{31e314d5-b959-4765-8b69-8458a66bdc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\glad">
+      <UniqueIdentifier>{88771fc4-5ff7-4a4f-83e2-6b9186401a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GLFW">
+      <UniqueIdentifier>{d05379d1-c203-4e76-b314-c77104797e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\ImGui">
+      <UniqueIdentifier>{89e1dc27-ebc9-4f6f-955f-f00914916c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadery">
+      <UniqueIdentifier>{25f7b2bb-e159-470f-874d-b7039f3bed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadery\general">
+      <UniqueIdentifier>{50244525-032e-4a20-80f9-62e1b4bd9598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadery\SSAO">
+      <UniqueIdentifier>{82bc1ded-2721-44e4-b52b-e89f2a032e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadery\SSAO+">
+      <UniqueIdentifier>{498851e9-e455-4a0c-97c4-6becd1661fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderData.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_demo.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_draw.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_stdlib.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_tables.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ImGui\imgui_widgets.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAOplus.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityFunctions.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="include\glad\glad.c">
+      <Filter>Pliki nagłówkowe\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="HBAO.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalysisDataLogger.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartTimer.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderData.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb\stb_image.h">
+      <Filter>Pliki nagłówkowe\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_glfw.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_opengl3.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_internal.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_stdlib.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_rectpack.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_textedit.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_truetype.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imconfig.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>Pliki nagłówkowe\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>Pliki nagłówkowe\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityFunctions.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAOplus.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>Pliki nagłówkowe\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HBAO.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb\stb_image_write.h">
+      <Filter>Pliki nagłówkowe\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisDataLogger.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartTimer.h">
+      <Filter>Pliki nagłówkowe\my headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\glfw3.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="shaders\general\renderAO.vs">
+      <Filter>Shadery\general</Filter>
+    </None>
+    <None Include="shaders\general\renderAO.fs">
+      <Filter>Shadery\general</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao.fs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao.vs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao_blur.fs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao_geometry.fs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao_geometry.vs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO\ssao_lighting.fs">
+      <Filter>Shadery\SSAO</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao.fs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao.vs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao_blur.fs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao_geometry.fs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao_geometry.vs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+    <None Include="shaders\SSAO+\ssao_lighting.fs">
+      <Filter>Shadery\SSAO+</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\glfw3.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="lib\glfw3_mt.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="lib\glfw3dll.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="lib\openal32.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="lib\glew32.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="lib\glew32s.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

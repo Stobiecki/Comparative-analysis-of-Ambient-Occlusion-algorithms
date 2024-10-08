@@ -1,0 +1,98 @@
+﻿  Camera.cpp
+  SSAO.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_stdlib.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+  Mesh.cpp
+  Model.cpp
+  RenderData.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Ambient Occlusion\RenderData.cpp(11,25): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Ambient Occlusion\RenderData.cpp(12,25): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  Shader.cpp
+  UtilityFunctions.cpp
+  Generowanie kodu...
+  glad.c
+     Trwa tworzenie biblioteki F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Debug\Ambient Occlusion.lib i obiektu F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Debug\Ambient Occlusion.exp
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetErrorCallback przywołany w funkcji "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetMonitors przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMonitors(void)" (?ImGui_ImplGlfw_UpdateMonitors@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetMonitorPos przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMonitors(void)" (?ImGui_ImplGlfw_UpdateMonitors@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetMonitorWorkarea przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMonitors(void)" (?ImGui_ImplGlfw_UpdateMonitors@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetMonitorContentScale przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMonitors(void)" (?ImGui_ImplGlfw_UpdateMonitors@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetMonitorCallback przywołany w funkcji "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetVideoMode przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMonitors(void)" (?ImGui_ImplGlfw_UpdateMonitors@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwWindowHint przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwWindowHint
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwCreateWindow przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwCreateWindow
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwDestroyWindow przywołany w funkcji "void __cdecl ImGui_ImplGlfw_DestroyWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_DestroyWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowTitle przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SetWindowTitle(struct ImGuiViewport *,char const *)" (?ImGui_ImplGlfw_SetWindowTitle@@YAXPAUImGuiViewport@@PBD@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetWindowPos przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CursorPosCallback(struct GLFWwindow *,double,double)" (?ImGui_ImplGlfw_CursorPosCallback@@YAXPAUGLFWwindow@@NN@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowPos przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetWindowSize przywołany w funkcji "struct ImVec2 __cdecl ImGui_ImplGlfw_GetWindowSize(struct ImGuiViewport *)" (?ImGui_ImplGlfw_GetWindowSize@@YA?AUImVec2@@PAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowSize przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SetWindowSize(struct ImGuiViewport *,struct ImVec2)" (?ImGui_ImplGlfw_SetWindowSize@@YAXPAUImGuiViewport@@UImVec2@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetFramebufferSize przywołany w funkcji "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowOpacity przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SetWindowAlpha(struct ImGuiViewport *,float)" (?ImGui_ImplGlfw_SetWindowAlpha@@YAXPAUImGuiViewport@@M@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwShowWindow przywołany w funkcji "void __cdecl ImGui_ImplGlfw_ShowWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_ShowWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwFocusWindow przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SetWindowFocus(struct ImGuiViewport *)" (?ImGui_ImplGlfw_SetWindowFocus@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetWindowAttrib przywołany w funkcji "bool __cdecl ImGui_ImplGlfw_GetWindowFocus(struct ImGuiViewport *)" (?ImGui_ImplGlfw_GetWindowFocus@@YA_NPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowPosCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowSizeCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowCloseCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowFocusCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetInputMode przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetInputMode przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwSetInputMode
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetKeyName przywołany w funkcji "int __cdecl ImGui_ImplGlfw_TranslateUntranslatedKey(int,int)" (?ImGui_ImplGlfw_TranslateUntranslatedKey@@YAHHH@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetCursorPos przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMouseData(void)" (?ImGui_ImplGlfw_UpdateMouseData@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetCursorPos przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMouseData(void)" (?ImGui_ImplGlfw_UpdateMouseData@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwCreateStandardCursor przywołany w funkcji "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwDestroyCursor przywołany w funkcji "void __cdecl ImGui_ImplGlfw_Shutdown(void)" (?ImGui_ImplGlfw_Shutdown@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetCursor przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetKeyCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetCharCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetMouseButtonCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetCursorPosCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwSetCursorPosCallback
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetCursorEnterCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetScrollCallback przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwSetScrollCallback
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetGamepadState przywołany w funkcji "void __cdecl ImGui_ImplGlfw_UpdateGamepads(void)" (?ImGui_ImplGlfw_UpdateGamepads@@YAXXZ)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetClipboardString przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SetClipboardText(void *,char const *)" (?ImGui_ImplGlfw_SetClipboardText@@YAXPAXPBD@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetClipboardString przywołany w funkcji "char const * __cdecl ImGui_ImplGlfw_GetClipboardText(void *)" (?ImGui_ImplGlfw_GetClipboardText@@YAPBDPAX@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetTime przywołany w funkcji "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwGetTime
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwMakeContextCurrent przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwMakeContextCurrent
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSwapBuffers przywołany w funkcji "void __cdecl ImGui_ImplGlfw_SwapBuffers(struct ImGuiViewport *,void *)" (?ImGui_ImplGlfw_SwapBuffers@@YAXPAUImGuiViewport@@PAX@Z)
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny _glfwSwapBuffers
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSwapInterval przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetWin32Window przywołany w funkcji "void __cdecl ImGui_ImplGlfw_CreateWindow(struct ImGuiViewport *)" (?ImGui_ImplGlfw_CreateWindow@@YAXPAUImGuiViewport@@@Z)
+imgui_impl_glfw.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwCreateWindowSurface przywołany w funkcji "int __cdecl ImGui_ImplGlfw_CreateVkSurface(struct ImGuiViewport *,unsigned __int64,void const *,unsigned __int64 *)" (?ImGui_ImplGlfw_CreateVkSurface@@YAHPAUImGuiViewport@@_KPBXPA_K@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwInit przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwTerminate przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwWindowShouldClose przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowIcon przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetFramebufferSizeCallback przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwPollEvents przywołany w funkcji "void __cdecl endFrameCleanup(struct GLFWwindow *)" (?endFrameCleanup@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetProcAddress przywołany w funkcji _main
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) przywołany w funkcji "private: void __thiscall Model::_LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?_LoadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) przywołany w funkcji "private: void __thiscall Model::_LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?_LoadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) przywołany w funkcji "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) przywołany w funkcji "private: void __thiscall Model::_LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?_LoadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny _aiGetMaterialTextureCount przywołany w funkcji "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: nierozpoznany symbol zewnętrzny _aiGetMaterialTexture przywołany w funkcji "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+UtilityFunctions.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwSetWindowShouldClose przywołany w funkcji "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+UtilityFunctions.obj : error LNK2019: nierozpoznany symbol zewnętrzny _glfwGetKey przywołany w funkcji "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+lib\glew32.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+lib\glew32s.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+lib\glfw3.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+lib\glfw3dll.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+lib\glfw3_mt.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+lib\openal32.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Debug\Ambient Occlusion.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 62

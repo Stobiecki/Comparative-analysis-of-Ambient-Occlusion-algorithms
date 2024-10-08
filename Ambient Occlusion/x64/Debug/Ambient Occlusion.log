@@ -1,0 +1,3 @@
+﻿  UtilityFunctions.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\Ambient Occlusion\UtilityFunctions.cpp(318,23): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Ambient Occlusion.vcxproj -> F:\Foldery\Studia UG - Magisterskie\Semestr IV\Seminarium Magisterskie\Ambient Occlusion\Ambient Occlusion\x64\Debug\Ambient Occlusion.exe
